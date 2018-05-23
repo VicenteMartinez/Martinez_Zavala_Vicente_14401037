@@ -1,0 +1,15 @@
+Alumno: Vicente Martinez Zavala   No.Control: 14401037
+
+
+Procedimiento:
+Se realiza la creacion de la base de datos mediante una app o ya se encuentran creadas
+algunas de las aplicaciones y proveedores de contenido con los que ya cuenta el 
+dispositivo. 
+Abrimos la herramienta Android Device Monitor y ejecutamos la pequeña app que
+desarrollamos, hay que utilizar una version de android menor a la API 23, ya que
+de no hacer esto no se podran visualizar los datos de la Carpeta data/data.
+Una vez ejecutada la app con la herramienta nos dirigimos a File Explorer y nos dirigimos 
+a la ruta data/data y abrimos el archivo de cual  queramos ver la base de datos.
+Lo exportamos a donde gustes.
+Descargamos e instalamos DB Browser for SQLite y Seleccionamos la opcion Open Database,
+seleccionamos el archivo .db y nos mostrara la estructura y el contenido de esta.
